@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaiTravel - Discover Amazing Thailand | Assignment 6 - นาย วรพัธน์ ด้วงแก้ว 68043407</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">ThaiTravel</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero Banner -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Discover Amazing Thailand</h1>
+            <p>Experience the beauty of golden temples, pristine beaches, and vibrant culture</p>
+            <a href="#destinations" class="cta-button">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Section 2: Heading & Description -->
+    <section id="about" class="about-section">
+        <h2>Why Travel Thailand?</h2>
+        <p>Thailand is a land of incredible diversity, from the bustling streets of Bangkok to the serene islands of the south. Whether you're seeking adventure, relaxation, or cultural immersion, Thailand offers an unforgettable experience for every traveler. Discover ancient temples, savor world-renowned cuisine, and explore breathtaking natural landscapes that will leave you speechless.</p>
+    </section>
+
+    <!-- Section 3: Gallery -->
+    <section id="gallery" class="gallery-section">
+        <h2>Travel Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/temple.jpg" alt="Temple in Bangkok">
+                <div class="gallery-overlay">
+                    <span>Bangkok Temples</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/island.jpg" alt="Phi Phi Islands">
+                <div class="gallery-overlay">
+                    <span>Phi Phi Islands</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/market.jpg" alt="Floating Market">
+                <div class="gallery-overlay">
+                    <span>Floating Market</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/mountain.jpg" alt="Chiang Mai">
+                <div class="gallery-overlay">
+                    <span>Chiang Mai</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/beach.jpg" alt="Thai Beach">
+                <div class="gallery-overlay">
+                    <span>Krabi Beach</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/sunset.jpg" alt="Ayutthaya">
+                <div class="gallery-overlay">
+                    <span>Ayutthaya</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Content Cards -->
+    <section id="destinations" class="cards-section">
+        <h2>Popular Destinations</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/card-bangkok.jpg" alt="Bangkok">
+                </div>
+                <div class="card-content">
+                    <h3>Bangkok</h3>
+                    <p>The vibrant capital city known for ornate shrines, bustling street life, and the famous Grand Palace.</p>
+                    <a href="#" class="card-button">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/card-phuket.jpg" alt="Phuket">
+                </div>
+                <div class="card-content">
+                    <h3>Phuket</h3>
+                    <p>Thailand's largest island with stunning beaches, crystal-clear waters, and exciting nightlife.</p>
+                    <a href="#" class="card-button">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/card-chiangmai.jpg" alt="Chiang Mai">
+                </div>
+                <div class="card-content">
+                    <h3>Chiang Mai</h3>
+                    <p>A culturally rich city in the mountainous north, famous for ancient temples and night bazaars.</p>
+                    <a href="#" class="card-button">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/card-krabi.jpg" alt="Krabi">
+                </div>
+                <div class="card-content">
+                    <h3>Krabi</h3>
+                    <p>A province on southern Thailand's west coast with dramatic limestone cliffs and mangrove forests.</p>
+                    <a href="#" class="card-button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 6: Plus One - Contact Form -->
+    <section id="contact" class="contact-section">
+        <h2>Plan Your Trip</h2>
+        <p>Ready to explore Thailand? Send us your travel preferences and we'll help you plan the perfect trip!</p>
+        <form class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Travel Plan</label>
+                <textarea id="message" rows="4" placeholder="Tell us about your dream trip..."></textarea>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Section 5: Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>ThaiTravel</h3>
+                <p>Your gateway to discovering the wonders of Thailand.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-icon" aria-label="Facebook">FB</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">IG</a>
+                    <a href="#" class="social-icon" aria-label="Twitter">TW</a>
+                    <a href="#" class="social-icon" aria-label="YouTube">YT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ThaiTravel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Plus One feature) -->
+    <a href="#home" class="scroll-top">&#8679;</a>
+
+    <!-- Hamburger Menu Script -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+
+</body>
+</html>
